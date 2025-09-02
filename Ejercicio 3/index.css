@@ -1,23 +1,4 @@
 .container {
-    display: flex;
-    flex-direction: "column";
-    flex-wrap: wrap;
-    display: flex;
-    gap: 10px;
-    gap: 10px 20px;
-    row-gap: 10px;
-    column-gap: 20px;
-}
-
-.item {
-    flex-grow: 1;
-}
-
-.item-2 {
-    flex-grow: 2;
-}
-
-.container {
     display: grid;
     grid-template-columns:
     1fr 1fr
